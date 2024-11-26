@@ -8,7 +8,16 @@
         @include('layout.navbar')
         <div class="container-fluid page-body-wrapper">
             @include('layout.aside')
-            @yield('content')
+
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 grid-margin">
+                            @yield('content')
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
