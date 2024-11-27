@@ -18,7 +18,7 @@
               
               <li class="nav-item nav-profile dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                      <img src="images/faces/face28.png" alt="profile" />{{ Auth::user()->name }}
+                      <img src="{{ asset('images/faces/face28.png') }}" alt="profile" />{{ Auth::user()->name }}
                   </a>
               </li>
               <li class="nav-item nav-profile dropdown">
